@@ -15,5 +15,5 @@ jobs:
         file: linuxacademy/ci/tasks/run_tests.yml
       - task: run the test suite 2
         file: linuxacademy/ci/tasks/run_tests.yml        
-      - task: run the test suite 3:
+      - task: run the test suite 3
         file: linuxacademy/ci/tasks/run_tests.yml        
