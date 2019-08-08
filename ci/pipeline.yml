@@ -7,13 +7,15 @@ resources:
       branch: master
 
 jobs:
-  - name: Run tests
+  - name: Run tests Test-1
     plan:
       - get: linuxacademy
         trigger: true
       - task: run the test suite
-        file: linuxacademy/ci/tasks/run_tests.yml
-      - task: run the test suite 2
-        file: linuxacademy/ci/tasks/run_tests.yml        
-      - task: run the test suite 3
-        file: linuxacademy/ci/tasks/run_tests.yml        
+        file: linuxacademy/ci/tasks/run_tests.yml     
+  - name: Run tests Test-2
+    plan:
+      - get: linuxacademy
+        trigger: true
+      - task: run the test suite
+        file: linuxacademy/ci/tasks/run_tests.yml             
