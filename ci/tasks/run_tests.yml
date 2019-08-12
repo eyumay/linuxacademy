@@ -11,5 +11,5 @@ inputs:
   - name: linuxacademy
 
 run:
-  # path: linuxacademy/ci/scripts/run_tests.sh
-  path: linuxacademy/ci/scripts/launch_build.sh
+  path: linuxacademy/ci/scripts/run_tests.sh
+  # path: linuxacademy/ci/scripts/launch_build.sh
