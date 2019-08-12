@@ -6,5 +6,5 @@ set -e -u -x
 # cd hello_hapi && npm test
 ls -l
 # ip addr show
-apt-get install net-tools
-ifconfig
+# apt-get install net-tools
+ip addr show
