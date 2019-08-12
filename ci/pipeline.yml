@@ -36,4 +36,5 @@ jobs:
       - get: linuxacademy
         trigger: true
       - task: run the test suite
-        file: linuxacademy/ci/tasks/run_tests.yml          
+        # file: linuxacademy/ci/tasks/run_tests.yml          
+        file: linuxacademy/ci/scripts/launch_build.sh
